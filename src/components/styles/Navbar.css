@@ -1,0 +1,25 @@
+.Navbar__container {
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__name {
+    display: flex;
+    margin-left: 1em;
+}
+
+.Navbar {
+    width: 100%;
+    margin: 0 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar a {
+    margin: 0 1em;
+    text-decoration: none;
+}
