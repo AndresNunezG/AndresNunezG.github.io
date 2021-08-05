@@ -15,11 +15,11 @@ export const navbarData = [
 
 export const aboutData = [
     {
-        title: "HELLO 👋",
-        content: "I'm Andrés, from Bogotá Colombia. Electronic Engineer and Web developer, passionate about technology and computer science",
+        title: "Hello there",
+        content: "I'm Andrés, from Bogotá Colombia. Electronic Engineer and Software Developer, passionate about technology and computer science",
     },
     {
-        title: "HOLA! 👋",
-        content: "Soy Andrés, de Bogotá Colombia. Ingeniero electrónico y desarrollador web, apasionado por la tecnología y el computer science"
+        title: "Hola!",
+        content: "Soy Andrés, de Bogotá Colombia. Ingeniero electrónico y desarrollador de software, apasionado por la tecnología y el computer science"
     }
 ];

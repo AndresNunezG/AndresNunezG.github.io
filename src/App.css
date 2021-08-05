@@ -7,14 +7,16 @@
 
 .light {
     --main-bg-color: #BDD5EA;
+    --submain-bg-color: #F7F7F0;
     --main-fg-color: #495867;
-    --navbar-divline-color: #577399;
+    --submain-fg-color: #577399;
     --hover-color: #FE5F55;
 }
 
 .dark {
     --main-bg-color: #222831;
+    --submain-bg-color: #30475E;
     --main-fg-color: #E8E8E8;
-    --navbar-divline-color: #30475E;
+    --submain-fg-color: #E8E8E8;
     --hover-color: #F05454;
 }

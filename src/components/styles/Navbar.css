@@ -1,7 +1,7 @@
 .Navbar__container {
     margin: 0;
     width: 100%;
-    height: 4.3em;
+    height: 8.5vh;
     position: sticky;
     background-color: var(--main-bg-color);
     display: flex;
@@ -13,7 +13,7 @@
     display: flex;
     margin: 0.5em;
     padding: 0 1.5em;
-    border-right: solid 1px var(--navbar-divline-color);
+    border-right: solid 1px var(--main-fg-color);
     transition: 200ms ease;
 }
 
