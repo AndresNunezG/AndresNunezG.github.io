@@ -6,16 +6,18 @@
 }
 
 .light {
-    --main-bg-color: #BDD5EA;
-    --submain-bg-color: #F7F7F0;
+    --header-bg-color: #BDD5EA;
+    --main-bg-color: #F7F7F0;
+    --submain-bg-color: #BDD5DF;
     --main-fg-color: #495867;
     --submain-fg-color: #577399;
     --hover-color: #FE5F55;
 }
 
 .dark {
-    --main-bg-color: #222831;
-    --submain-bg-color: #30475E;
+    --header-bg-color: #222831;
+    --main-bg-color: #30475E;
+    --submain-bg-color: #222838;
     --main-fg-color: #E8E8E8;
     --submain-fg-color: #E8E8E8;
     --hover-color: #F05454;

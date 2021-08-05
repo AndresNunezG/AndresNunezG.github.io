@@ -16,10 +16,57 @@ export const navbarData = [
 export const aboutData = [
     {
         title: "Hello there",
-        content: "I'm Andrés, from Bogotá Colombia. Electronic Engineer and Software Developer, passionate about technology and computer science",
+        content: "I'm Andrés, from Bogotá Colombia. Software Developer & Electronic Engineer, passionate about technology and computer science",
     },
     {
         title: "Hola!",
-        content: "Soy Andrés, de Bogotá Colombia. Ingeniero electrónico y desarrollador de software, apasionado por la tecnología y el computer science"
-    }
+        content: "Soy Andrés, de Bogotá Colombia. Desarrollador de Software e Ingeniero electrónico, apasionado por la tecnología y el computer science"
+    },
 ];
+
+export const projectsHeader = [
+    {
+        title: "Apps I've Built",
+        content: "Take a look at my favourite Projects and Apps"
+    },
+    {
+        title: "Proyectos",
+        content: "Echa un vistazo a mis proyectos favoritos"
+    },
+]
+
+export const projectsData = [
+    [
+        {
+            title: "Badge System",
+            subtitle: "CRUD Badge management",
+            link: "https://github.com/AndresNunezG/BadgesSystem",
+        },
+        {
+            title: "VideoTube",
+            subtitle: "Video platform simulator with the Rick & Morty API",
+            link: "https://github.com/AndresNunezG/VideoTube",
+        },
+    ],
+    [
+        {
+            title: "Sistema de Insignias",
+            subtitle: "Aplicación CRUD de insignias",
+            link: "https://github.com/AndresNunezG/BadgesSystem",
+        },
+        {
+            title: "VideoTube",
+            subtitle: "Clon de plataforma streaming",
+            link: "https://github.com/AndresNunezG/VideoTube",
+        },
+    ],
+]
+
+export const footerData = [
+    {
+        rights: "Andrés Camilo Núñez Garzón | All rights reserved © 2021",
+    },
+    {
+        rights: "Andrés Camilo Núñez Garzón | Todos los derechos reservados © 2021",
+    },
+]

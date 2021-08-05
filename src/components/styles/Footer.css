@@ -1,0 +1,43 @@
+#Footer {
+    width: 100%;
+    height: 8.5vh;
+    background-color: var(--header-bg-color);
+    color: var(--main-fg-color);
+    border-top: solid 1px var(--main-bg-color);
+}
+
+.Footer__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.Footer__left a, .Footer__right a {
+    color: var(--main-fg-color);
+    text-decoration: none;
+    transition: 200ms ease;
+}
+
+.Footer__right {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin: 0 1em;
+}
+
+.Footer__container i {
+    padding: 0 5px;
+    transition: 200ms ease;
+}
+
+.Footer__right i:hover, .Footer__left a:hover {
+    color: var(--hover-color);
+}

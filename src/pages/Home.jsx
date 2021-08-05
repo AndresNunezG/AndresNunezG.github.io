@@ -3,6 +3,8 @@ import useTheme from '../hooks/useTheme';
 
 import Navbar from '../components/Navbar'
 import About from '../components/About';
+import Projects from '../components/Projects';
+import Footer from '../components/Footer';
 
 export default function Home () {
     const [language, handleClickLeng] = useLanguage();
@@ -14,9 +16,9 @@ export default function Home () {
              onClickLeng={handleClickLeng}
              onClickTheme={handleClickTheme}
             />
-            <About
-             language={language}
-            />
+            <About language={language} />
+            <Projects language={language} />
+            <Footer language={language} />
         </main>
     )
 }

@@ -23,7 +23,7 @@ export default function Navbar (props) {
                 <div className="Navbar__right">
                     <button onClick={props.onClickLeng} className="Leng__button" type="button">
                         <h3>
-                            {props.language ? "ES" : "EN"}
+                            {props.language ? "EN" : "ES"}
                         </h3>
                     </button>
                     <button onClick={props.onClickTheme} className="Theme__button" type="button">

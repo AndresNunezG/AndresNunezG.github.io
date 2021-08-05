@@ -1,0 +1,31 @@
+#projects {
+    width: 100%;
+    background: var(--submain-bg-color);
+}
+
+.Projects__title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.Icon__projects {
+    width: 7em;
+    color: var(--hover-color);
+}
+
+.Main__title,
+.Subtitle__title {
+    color: var(--main-fg-color);
+}
+
+.Main__title {
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.Subtitle__title {
+    font-size: 1.5em;
+}
