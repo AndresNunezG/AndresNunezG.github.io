@@ -3,8 +3,8 @@ import React from 'react';
 import { aboutData } from '../data'
 import './styles/About.css';
 
-export default function About () {
-    const data = aboutData[0];
+export default function About (props) {
+    const data = aboutData[props.language];
     return (
         <section id="about">
             <div className="About__text">

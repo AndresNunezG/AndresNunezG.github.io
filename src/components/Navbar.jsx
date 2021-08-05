@@ -2,10 +2,11 @@ import React from 'react';
 
 import { navbarData } from '../data.js';
 import { SunIcon } from '@heroicons/react/outline'
+import { MoonIcon } from '@heroicons/react/outline';
 import './styles/Navbar.css';
 
 export default function Navbar (props) {
-    const data = navbarData[props.language]
+    const data = navbarData[props.language];
     return (
         <header className="Navbar__container">
             <div className="Navbar__name">
@@ -21,10 +22,12 @@ export default function Navbar (props) {
                 </div>
                 <div className="Navbar__right">
                     <button onClick={props.onClickLeng} className="Leng__button" type="button">
-                        <h3>EN</h3>
+                        <h3>
+                            {props.language ? "ES" : "EN"}
+                        </h3>
                     </button>
                     <button onClick={props.onClickTheme} className="Theme__button" type="button">
-                        <SunIcon className="Icon__sun" />
+                        {props.theme ? <SunIcon className="Icon__theme" />: <MoonIcon className="Icon__theme" />}
                     </button>
                 </div>
             </div>
