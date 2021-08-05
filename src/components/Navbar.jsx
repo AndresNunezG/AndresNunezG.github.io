@@ -1,9 +1,11 @@
 import React from 'react';
 
-import './styles/Navbar.css'
+import { navbarData } from '../data.js';
+import './styles/Navbar.css';
 
 export default function Navbar () {
-    return(
+    const data = navbarData[1];
+    return (
         <header className="Navbar__container">
             <div className="Navbar__name">
                 <h1 className="Navbar__firstname">Andr&eacute;s&nbsp;</h1>
@@ -11,12 +13,12 @@ export default function Navbar () {
             </div>
             <div className="Navbar">
                 <div className="Navbar__left">
-                    <a href='about'>About</a>
-                    <a href='projects'>Projects</a>
-                    <a href='techstack'>Techstack</a>
+                    <a href='about'>{data.about}</a>
+                    <a href='projects'>{data.projects}</a>
+                    <a href='techstack'>{data.techstack}</a>
                 </div>
                 <div className="Navbar__right">
-                    <a href="contact">Contact</a>
+                    <a href="contact">{data.contact}</a>
                 </div>
             </div>
         </header>

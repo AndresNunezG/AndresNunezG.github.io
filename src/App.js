@@ -1,10 +1,16 @@
-import Navbar from './components/Navbar'
+import React from 'react';
+
+import Navbar from './components/Navbar';
+import About from './components/About';
 
 import './App.css'
 
 function App() {
   return (
-    <Navbar />
+    <main>
+      <Navbar />
+      <About />
+    </main>
   );
 }
 
