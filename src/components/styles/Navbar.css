@@ -6,13 +6,15 @@
     background-color: var(--main-bg-color);
     display: flex;
     align-items: center;
+    color: var(--main-fg-color);
 }
 
 .Navbar__name {
     display: flex;
     margin: 0.5em;
     padding: 0 1.5em;
-    border-right: solid 2px var(--navbar-divline-color);
+    border-right: solid 1px var(--navbar-divline-color);
+    transition: 200ms ease;
 }
 
 .Navbar__firstname,
@@ -20,8 +22,8 @@
     margin: 0;
 }
 
-.Navbar__lastname {
-    font-weight: 700;
+.Navbar__firstname {
+    font-weight: 500;
 }
 
 .Navbar__lastname {
@@ -39,7 +41,12 @@
 .Navbar a {
     margin: 0 1em;
     text-decoration: none;
-    color: red;
+    transition: 200ms ease;
+    color: var(--main-fg-color);
+}
+
+.Navbar a:hover {
+    color: var(--hover-color);
 }
 
 .Navbar__right {
@@ -49,11 +56,20 @@
 .Leng__button,
 .Theme__button {
     border-style: none;
-    background-color: none;
+    background-color: inherit;
     cursor: pointer;
+    color: var(--main-fg-color);
 }
 
 .Icon__theme {
-    width: 22px;
+    width: 20px;
     margin-left: 8px;
+}
+
+.Leng__button h3, .Icon__theme {
+    transition: 200ms ease;
+}
+
+.Leng__button h3:hover, .Icon__theme:hover {
+    color: var(--hover-color);
 }

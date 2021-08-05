@@ -6,7 +6,7 @@ export const navbarData = [
         contact: "Contact",   
     },
     {
-        about: "Acerca",
+        about: "Acerca de",
         projects: "Projectos",
         techstack: "Tecnologías",
         contact: "Contacto",

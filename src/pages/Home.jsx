@@ -8,16 +8,14 @@ export default function Home () {
     const [language, handleClickLeng] = useLanguage();
     const [theme, handleClickTheme] = useTheme();
     return (
-        <main>
+        <main className={theme ? "light" : "dark"}>
             <Navbar
              language={language}
-             theme={theme}
              onClickLeng={handleClickLeng}
              onClickTheme={handleClickTheme}
             />
             <About
              language={language}
-             theme={theme}
             />
         </main>
     )

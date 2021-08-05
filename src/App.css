@@ -5,7 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
-:root {
-    --main-bg-color: #EEE;
-    --navbar-divline-color: #BBB
+.light {
+    --main-bg-color: #BDD5EA;
+    --main-fg-color: #495867;
+    --navbar-divline-color: #577399;
+    --hover-color: #FE5F55;
+}
+
+.dark {
+    --main-bg-color: #222831;
+    --main-fg-color: #E8E8E8;
+    --navbar-divline-color: #30475E;
+    --hover-color: #F05454;
 }
