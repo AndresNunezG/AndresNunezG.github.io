@@ -4,8 +4,8 @@ import { navbarData } from '../data.js';
 import { SunIcon } from '@heroicons/react/outline'
 import './styles/Navbar.css';
 
-export default function Navbar () {
-    const data = navbarData[1];
+export default function Navbar (props) {
+    const data = navbarData[props.language]
     return (
         <header className="Navbar__container">
             <div className="Navbar__name">
@@ -20,10 +20,12 @@ export default function Navbar () {
                     <a href="contact">{data.contact}</a>
                 </div>
                 <div className="Navbar__right">
-                    <button type="button">
-                        <h4>EN</h4>
+                    <button onClick={props.onClickLeng} className="Leng__button" type="button">
+                        <h3>EN</h3>
                     </button>
-                    <SunIcon className="Icon__sun" />
+                    <button onClick={props.onClickTheme} className="Theme__button" type="button">
+                        <SunIcon className="Icon__sun" />
+                    </button>
                 </div>
             </div>
         </header>

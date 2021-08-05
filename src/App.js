@@ -1,16 +1,12 @@
 import React from 'react';
 
-import Navbar from './components/Navbar';
-import About from './components/About';
+import Home from './pages/Home';
 
 import './App.css'
 
 function App() {
   return (
-    <main>
-      <Navbar />
-      <About />
-    </main>
+    <Home />
   );
 }
 

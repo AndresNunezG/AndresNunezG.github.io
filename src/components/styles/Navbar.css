@@ -33,18 +33,27 @@
     margin-right: 1em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .Navbar a {
     margin: 0 1em;
     text-decoration: none;
+    color: red;
 }
 
 .Navbar__right {
     display: flex;
 }
 
+.Leng__button,
+.Theme__button {
+    border-style: none;
+    background-color: none;
+    cursor: pointer;
+}
+
 .Icon__sun {
-    width: 20px;
-    margin-left: 5px;
+    width: 22px;
+    margin-left: 8px;
 }
