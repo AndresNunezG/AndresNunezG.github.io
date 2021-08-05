@@ -7,9 +7,12 @@ export default function About () {
     const data = aboutData[0];
     return (
         <section id="about">
-            <div>
-                <h1>{data.title}</h1>
-                <p>{data.content}</p>
+            <div className="About__text">
+                <h1 className="About__title">{data.title}</h1>
+                <p className="About__content">{data.content}</p>
+            </div>
+            <div className="About__image">
+
             </div>
         </section>
     )

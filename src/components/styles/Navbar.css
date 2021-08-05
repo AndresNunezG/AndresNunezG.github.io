@@ -39,3 +39,12 @@
     margin: 0 1em;
     text-decoration: none;
 }
+
+.Navbar__right {
+    display: flex;
+}
+
+.Icon__sun {
+    width: 20px;
+    margin-left: 5px;
+}
