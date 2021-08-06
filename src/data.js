@@ -33,7 +33,7 @@ export const projectsHeader = [
         title: "Proyectos",
         content: "Echa un vistazo a mis proyectos favoritos"
     },
-]
+];
 
 export const projectsData = [
     [
@@ -60,7 +60,70 @@ export const projectsData = [
             link: "https://github.com/AndresNunezG/VideoTube",
         },
     ],
-]
+];
+
+export const techstackHeader = [
+    {
+        title: "Techstack",
+        content: "These are the main techs that i use for my apps and projects",
+    },
+    {
+        title: "Tecnologías",
+        content: "Estas son las principales tecnologías que uso para mis aplicaciones y proyectos",
+    }
+];
+
+export const techstackData = [
+    [
+        {
+            name: "Javascript",
+            description: "",
+            iconClass: "fab fa-js",
+        },
+        {
+            name: "React",
+            description: "",
+            iconClass: "fab fa-react"
+        },
+        {
+            name: "Python",
+            description: "",
+            iconClass: "fab fa-python",
+        },
+        {
+            name: "Database",
+            description: "",
+            iconClass: "fas fa-database",
+        },
+        {
+            name: "Git",
+            description: "",
+            iconClass: "fab fa-git",
+        },
+        {
+            name: "API",
+            description: "",
+            iconClass: "fas fa-server",
+        },
+    ],
+    [
+        {
+            name: "Javascript",
+            description: "",
+            iconClass: "fab fa-js",
+        },
+        {
+            name: "React",
+            description: "",
+            iconClass: "fab fa-react"
+        },
+        {
+            name: "Python",
+            description: "",
+            iconClass: "fab fa-python",
+        },
+    ],
+];
 
 export const footerData = [
     {
@@ -69,4 +132,4 @@ export const footerData = [
     {
         rights: "Andrés Camilo Núñez Garzón | Todos los derechos reservados © 2021",
     },
-]
+];

@@ -9,10 +9,10 @@ export default function Projects (props) {
     const data = projectsData[props.language]
     return (
         <section id="projects">
-            <div className="Projects__title">
+            <div className="Projects__title-container">
                 <CodeIcon className="Icon__projects"/>
-                <h1 className="Main__title">{dataHeader.title}</h1>
-                <p className="Subtitle__title">{dataHeader.content}</p>
+                <h1 className="Projects__title">{dataHeader.title}</h1>
+                <p className="Projects__subtitle">{dataHeader.content}</p>
             </div>
         </section>
     )

@@ -1,0 +1,26 @@
+#Techstack {
+    width: 100%;
+    color: var(--main-fg-color);
+    background: var(--main-bg-color);
+}
+
+.Techstack__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon__techstack {
+    width: 7em;
+    color: var(--hover-color);
+}
+
+.Techstack__title {
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.Techstack__subtitle {
+    font-size: 1.5em;
+}

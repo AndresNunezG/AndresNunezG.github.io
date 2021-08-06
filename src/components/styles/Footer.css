@@ -1,6 +1,6 @@
 #Footer {
     width: 100%;
-    height: 8.5vh;
+    height: 9vh;
     background-color: var(--header-bg-color);
     color: var(--main-fg-color);
     border-top: solid 1px var(--main-bg-color);
@@ -18,6 +18,10 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 1em;
+}
+
+.Footer__left p {
+    margin-bottom: 3px;
 }
 
 .Footer__left a, .Footer__right a {

@@ -4,6 +4,7 @@ import useTheme from '../hooks/useTheme';
 import Navbar from '../components/Navbar'
 import About from '../components/About';
 import Projects from '../components/Projects';
+import Techstack from '../components/Techstack';
 import Footer from '../components/Footer';
 
 export default function Home () {
@@ -18,6 +19,7 @@ export default function Home () {
             />
             <About language={language} />
             <Projects language={language} />
+            <Techstack language={language} />
             <Footer language={language} />
         </main>
     )

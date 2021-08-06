@@ -10,7 +10,7 @@ export default function Footer (props) {
             <div className="Footer__container">
                 <div className="Footer__left">
                     <p>{data.rights}</p>
-                    <a href="https://storyset.com/work">
+                    <a href="https://storyset.com/work" target="_blank">
                         Work illustrations by Storyset
                     </a>
                 </div>

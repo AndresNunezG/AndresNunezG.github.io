@@ -3,11 +3,10 @@
     background: var(--submain-bg-color);
 }
 
-.Projects__title {
+.Projects__title-container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 
@@ -16,16 +15,16 @@
     color: var(--hover-color);
 }
 
-.Main__title,
-.Subtitle__title {
+.Projects__title,
+.Projects__subtitle {
     color: var(--main-fg-color);
 }
 
-.Main__title {
+.Projects__title {
     font-weight: 500;
     font-size: 3em;
 }
 
-.Subtitle__title {
+.Projects__subtitle {
     font-size: 1.5em;
 }
