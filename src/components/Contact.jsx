@@ -8,7 +8,7 @@ export default function (props) {
     return (
         <section id="contact">
             <div className="ContactText__container">
-                <h1>Contact me</h1>
+                <h1>{data.title}</h1>
             </div>
             <div className="ContactForm__container">
                 <form className="ContactForm" autocomplete="off">
@@ -26,13 +26,13 @@ export default function (props) {
                     autocomplete="off"
                     placeholder={data.email}>
                     </input>
-                    <input
-                    className="InputForm"
+                    <textarea
+                    className="InputForm MessageBox"
                     name="message"
                     type="text"
                     autocomplete="off"
                     placeholder={data.message}>
-                    </input>
+                    </textarea>
                     <button
                      className="SubmitButton"
                      type="button">{data.submit}</button>

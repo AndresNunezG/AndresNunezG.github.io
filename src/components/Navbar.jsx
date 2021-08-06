@@ -27,7 +27,7 @@ export default function Navbar (props) {
                         </h3>
                     </button>
                     <button onClick={props.onClickTheme} className="Theme__button" type="button">
-                        {props.theme ? <SunIcon className="Icon__theme" />: <MoonIcon className="Icon__theme" />}
+                        {props.theme ? <MoonIcon className="Icon__theme" /> : <SunIcon className="Icon__theme" />}
                     </button>
                 </div>
             </div>

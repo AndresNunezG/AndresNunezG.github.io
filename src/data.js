@@ -142,16 +142,22 @@ export const techstackData = [
 
 export const contactData = [
     {
+        title: "Contact me",
         name: "Name",
         email: "Email",
-        message: "Message",
+        message: "Hi, i like your work and i'd like to collaborate with you",
         submit: "Submit",
+        messageError: "Whoops, make sure all the fileds are complete",
+        messageSent: "Thanks! I'll answer you soon",
     },
     {
+        title: "Contacto",
         name: "Nombre",
         email: "Correo",
-        message: "Mensaje",
+        message: "Hola, me gusta tu trabajo y quiero colaborar o trabajar contigo!",
         submit: "Enviar",
+        messageError: "Ops!, Asegúrate de completar todos los campos",
+        messageSent: "Gracias por tu mensaje, responderé en breve"
     },
 ];
 

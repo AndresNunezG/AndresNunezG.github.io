@@ -1,27 +1,50 @@
 #contact {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    background: var(--main-bg-color);
+    color: var(--main-fg-color);
 }
 
 .ContactForm {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1em;
 }
 
 .InputForm {
-    height: 30px;
+    height: 35px;
     width: 300px;
     margin-bottom: 15px;
-    border: solid 1px var(--hover-color);
-    transition: 200ms ease;   
+    padding: 7px 5px;
+    color: var(--main-fg-color);
+    background-color: var(--main-color);
+    border: solid 1px var(--submain-bg-color);
+    box-shadow: 4px 4px 0px 0px var(--submain-bg-color);
+    transition: 200ms ease;
 }
 
 .InputForm:focus {
     outline: none;
-    box-shadow: 0px 10px 13px -7px var(--hover-color), 2px 2px 0px 0px var(--hover-color);
+}
+
+.MessageBox {
+    resize: none;
+    height: 60px;
 }
 
 .SubmitButton {
+    border-style: none;
+    height: 35px;
+    color: var(--main-fg-color);
+    background-color: var(--main-bg-color);
+    border: solid 1px var(--submain-bg-color);
+    box-shadow: 4px 4px 0px 0px var(--submain-bg-color);
     width: 50%;
+    transition: 200ms ease;
+}
+
+.SubmitButton:hover {
+    color: var(--hover-color);
 }

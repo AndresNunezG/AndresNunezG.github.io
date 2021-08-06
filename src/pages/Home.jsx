@@ -14,6 +14,7 @@ export default function Home () {
     return (
         <main className={theme ? "light" : "dark"}>
             <Navbar
+            theme={theme}
              language={language}
              onClickLeng={handleClickLeng}
              onClickTheme={handleClickTheme}
