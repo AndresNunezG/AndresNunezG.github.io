@@ -14,6 +14,13 @@ export default function Projects (props) {
                 <h1 className="Projects__title">{dataHeader.title}</h1>
                 <p className="Projects__subtitle">{dataHeader.content}</p>
             </div>
+            <div className="Projects__list-container">
+                {data.map((project) => (
+                    <div key={project.title}>
+                        <p>{project.title}</p>
+                    </div>
+                ))}
+            </div>
         </section>
     )
 }

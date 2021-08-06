@@ -10,15 +10,15 @@ export default function Footer (props) {
             <div className="Footer__container">
                 <div className="Footer__left">
                     <p>{data.rights}</p>
-                    <a href="https://storyset.com/work" target="_blank">
+                    <a href="https://storyset.com/work" target="_blank" rel="noreferrer">
                         Work illustrations by Storyset
                     </a>
                 </div>
                 <div className="Footer__right">
-                    <a href="https://github.com/AndresNunezG" target="_blank">
+                    <a href="https://github.com/AndresNunezG" target="_blank" rel="noreferrer">
                         <i className="fab fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/andresnunezg/" target="_blank">
+                    <a href="https://www.linkedin.com/in/andresnunezg/" target="_blank" rel="noreferrer">
                         <i className="fab fa-linkedin"></i>
                     </a>
                 </div>

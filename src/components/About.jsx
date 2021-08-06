@@ -13,7 +13,7 @@ export default function About (props) {
                 <p className="About__content">{data.content}</p>
             </div>
             <div className="About__image">
-                <img src={DevImg} alt="image developer" />
+                <img src={DevImg} alt="illustration developer" />
             </div>
         </section>
     )

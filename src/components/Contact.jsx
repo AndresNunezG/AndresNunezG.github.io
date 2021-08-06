@@ -3,7 +3,7 @@ import React from 'react';
 import { contactData } from '../data';
 import './styles/Contact.css'
 
-export default function (props) {
+export default function Contact (props) {
     const data = contactData[props.language]
     return (
         <section id="contact">
@@ -11,26 +11,26 @@ export default function (props) {
                 <h1>{data.title}</h1>
             </div>
             <div className="ContactForm__container">
-                <form className="ContactForm" autocomplete="off">
+                <form className="ContactForm" autoComplete="off">
                     <input
                     className="InputForm"
                     name="name"
                     type="text"
-                    autocomplete="off"
+                    autoComplete="off"
                     placeholder={data.name}>
                     </input>
                     <input
                     className="InputForm"
                     name="email"
                     type="email"
-                    autocomplete="off"
+                    autoComplete="off"
                     placeholder={data.email}>
                     </input>
                     <textarea
                     className="InputForm MessageBox"
                     name="message"
                     type="text"
-                    autocomplete="off"
+                    autoComplete="off"
                     placeholder={data.message}>
                     </textarea>
                     <button

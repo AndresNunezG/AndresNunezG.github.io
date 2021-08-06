@@ -16,7 +16,7 @@ export default function Techstack (props) {
             </div>
             <div className="Techstack__list">
                 {data.map((tech) => (
-                    <div className="TechstackItem__container">
+                    <div className="TechstackItem__container" key={tech.name}>
                         <i className={tech.iconClass}></i>
                         <h3>{tech.name}</h3>
                     </div>
