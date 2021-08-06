@@ -1,14 +1,22 @@
 import React from 'react';
 
 import { contactData } from '../data';
-import './styles/Contact.css'
+import { ShieldCheckIcon } from '@heroicons/react/outline';
+import './styles/Contact.css';
 
 export default function Contact (props) {
     const data = contactData[props.language]
     return (
         <section id="contact">
             <div className="ContactText__container">
-                <h1>{data.title}</h1>
+                <h1 className="ContactText__title">{data.title}</h1>
+                <p className="ContactText__subtitle">{data.subtitle}</p>
+                <div className="Warning__container">
+                    <ShieldCheckIcon className="Icon__warning" />
+                    <p className="ContactText__warning">
+                        &nbsp;{data.warning}
+                    </p>
+                </div>
             </div>
             <div className="ContactForm__container">
                 <form className="ContactForm" autoComplete="off">

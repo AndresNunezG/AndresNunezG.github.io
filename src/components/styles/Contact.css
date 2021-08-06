@@ -1,9 +1,35 @@
 #contact {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background: var(--main-bg-color);
     color: var(--main-fg-color);
+    padding-bottom: 3em;
+}
+
+.ContactText__container {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.Warning__container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.Icon__warning {
+    width: 20px;
+    color: lime;
+}
+
+.ContactText__title {
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.ContactForm__container {
+    width: 50%;
 }
 
 .ContactForm {
@@ -14,7 +40,7 @@
 }
 
 .InputForm {
-    height: 35px;
+    height: 40px;
     width: 300px;
     margin-bottom: 15px;
     padding: 7px 5px;
@@ -29,6 +55,10 @@
     outline: none;
 }
 
+.InputForm::placeholder {
+    color: var(--main-fg-color);
+}
+
 .MessageBox {
     resize: none;
     height: 60px;
@@ -41,10 +71,11 @@
     background-color: var(--main-bg-color);
     border: solid 1px var(--submain-bg-color);
     box-shadow: 4px 4px 0px 0px var(--submain-bg-color);
-    width: 50%;
+    width: 150px;
     transition: 200ms ease;
 }
 
 .SubmitButton:hover {
+    width: 170px;
     color: var(--hover-color);
 }

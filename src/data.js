@@ -77,54 +77,44 @@ export const techstackData = [
     [
         {
             name: "Javascript",
-            description: "",
             iconClass: "fab fa-js",
         },
         {
             name: "React",
-            description: "",
             iconClass: "fab fa-react"
         },
         {
             name: "Python",
-            description: "",
             iconClass: "fab fa-python",
         },
         {
-            name: "Database",
-            description: "",
+            name: "MySQL",
             iconClass: "fas fa-database",
         },
         {
             name: "Git",
-            description: "",
             iconClass: "fab fa-git-alt",
         },
         {
             name: "FastAPI",
-            description: "",
             iconClass: "fas fa-server",
         },
     ],
     [
         {
             name: "Javascript",
-            description: "",
             iconClass: "fab fa-js",
         },
         {
             name: "React",
-            description: "",
             iconClass: "fab fa-react"
         },
         {
             name: "Python",
-            description: "",
             iconClass: "fab fa-python",
         },
         {
-            name: "Database",
-            description: "",
+            name: "MySQL",
             iconClass: "fas fa-database",
         },
         {
@@ -143,18 +133,22 @@ export const techstackData = [
 export const contactData = [
     {
         title: "Contact me",
+        subtitle: "If you like my work and would like to contact me for collaborations, feel free of leave me an email",
+        warning: "I'm not going to share your information or spam you",
         name: "Name",
         email: "Email",
-        message: "Hi, i like your work and i'd like to collaborate with you",
+        message: "Message",
         submit: "Submit",
         messageError: "Whoops, make sure all the fileds are complete",
         messageSent: "Thanks! I'll answer you soon",
     },
     {
         title: "Contacto",
+        subtitle: "Déjame un email si te gusta mi trabajo y estás interesado en colaborar conmigo.",
+        warning: "No compartiré tu información o enviarte correo basura",
         name: "Nombre",
         email: "Correo",
-        message: "Hola, me gusta tu trabajo y quiero colaborar o trabajar contigo!",
+        message: "Mensaje",
         submit: "Enviar",
         messageError: "Ops!, Asegúrate de completar todos los campos",
         messageSent: "Gracias por tu mensaje, responderé en breve"

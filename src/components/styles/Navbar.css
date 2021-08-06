@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     color: var(--main-fg-color);
-    border-bottom: solid 1px var(--main-bg-color);
 }
 
 .Navbar__name {
@@ -68,10 +67,10 @@
     margin-left: 8px;
 }
 
-.Leng__button h3, .Icon__theme {
+.Leng__button h3, .Theme__button {
     transition: 200ms ease;
 }
 
-.Leng__button h3:hover, .Icon__theme:hover {
+.Leng__button h3:hover, .Theme__button:hover {
     color: var(--hover-color);
 }

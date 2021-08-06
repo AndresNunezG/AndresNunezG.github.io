@@ -1,9 +1,8 @@
 #Footer {
     width: 100%;
-    height: 9vh;
+    height: 10vh;
     background-color: var(--header-bg-color);
     color: var(--main-fg-color);
-    border-top: solid 1px var(--main-bg-color);
 }
 
 .Footer__container {
@@ -20,8 +19,9 @@
     margin: 0 1em;
 }
 
-.Footer__left p {
-    margin-bottom: 3px;
+.Footer__left p, a{
+    padding: 2px 0;
+    font-size: 14px;
 }
 
 .Footer__left a, .Footer__right a {
@@ -38,6 +38,7 @@
 }
 
 .Footer__container i {
+    font-size: 40px;
     padding: 0 5px;
     transition: 200ms ease;
 }
