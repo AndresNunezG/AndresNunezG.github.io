@@ -140,6 +140,21 @@ export const techstackData = [
     ],
 ];
 
+export const contactData = [
+    {
+        name: "Name",
+        email: "Email",
+        message: "Message",
+        submit: "Submit",
+    },
+    {
+        name: "Nombre",
+        email: "Correo",
+        message: "Mensaje",
+        submit: "Enviar",
+    },
+];
+
 export const footerData = [
     {
         rights: "Andrés Camilo Núñez Garzón | All rights reserved © 2021",
