@@ -15,10 +15,10 @@ export default function Navbar (props) {
             </div>
             <div className="Navbar">
                 <div className="Navbar__left">
-                    <a href='about'>{data.about}</a>
-                    <a href='projects'>{data.projects}</a>
-                    <a href='techstack'>{data.techstack}</a>
-                    <a href="contact">{data.contact}</a>
+                    <a href='#about'>{data.about}</a>
+                    <a href='#projects'>{data.projects}</a>
+                    <a href='#techstack'>{data.techstack}</a>
+                    <a href="#contact">{data.contact}</a>
                 </div>
                 <div className="Navbar__right">
                     <button onClick={props.onClickLeng} className="Leng__button" type="button">

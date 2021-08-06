@@ -98,10 +98,10 @@ export const techstackData = [
         {
             name: "Git",
             description: "",
-            iconClass: "fab fa-git",
+            iconClass: "fab fa-git-alt",
         },
         {
-            name: "API",
+            name: "FastAPI",
             description: "",
             iconClass: "fas fa-server",
         },
@@ -121,6 +121,21 @@ export const techstackData = [
             name: "Python",
             description: "",
             iconClass: "fab fa-python",
+        },
+        {
+            name: "Database",
+            description: "",
+            iconClass: "fas fa-database",
+        },
+        {
+            name: "Git",
+            description: "",
+            iconClass: "fab fa-git-alt",
+        },
+        {
+            name: "FastAPI",
+            description: "",
+            iconClass: "fas fa-server",
         },
     ],
 ];

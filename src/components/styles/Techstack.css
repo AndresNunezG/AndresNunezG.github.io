@@ -24,3 +24,7 @@
 .Techstack__subtitle {
     font-size: 1.5em;
 }
+
+.Techstack__list {
+    width: 100%;
+}
