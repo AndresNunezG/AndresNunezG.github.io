@@ -57,7 +57,7 @@
 }
 
 .ProjectItem__image {
-    width: 20em;
+    width: 50%;
     padding: 1em;
 }
 
@@ -67,9 +67,11 @@
     object-fit: cover;
     border: solid 1px var(--hover-color);
     box-shadow: 4px 4px 0px 0px var(--hover-color);
+    transition: 200ms ease;
 }
 
 .ProjectText__container {
+    width: 50%;
     padding: 0.6em;
     display: flex;
     flex-direction: column;

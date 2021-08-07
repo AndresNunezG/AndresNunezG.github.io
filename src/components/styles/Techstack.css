@@ -27,6 +27,7 @@
 }
 
 .Techstack__list {
+    margin-top: 2em;
     width: 100%;
     padding: 1em 10%;
     display: flex;
