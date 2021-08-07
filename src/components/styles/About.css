@@ -20,6 +20,7 @@
 
 .About__content {
     font-size: 1.5em;
+    transition: 200ms ease;
 }
 
 .About__image {
