@@ -4,20 +4,23 @@ import { aboutData } from '../data'
 import DevImg from '../images/AboutDeveloper.svg'
 import './styles/About.css';
 
+const useTypeEffect = (text, speed) => {
+    const hola = '';
+};
+
 export default function About (props) {
     const data = aboutData[props.language];
     const [title, setTitle] = useState('');
     const [counter, setCounter] = useState(0);
     const speed = 120;
-    const titleData = data.title;
     useEffect(() => {
         setTimeout(() => {
-            if (counter < titleData.length) {
+            if (counter < data.title.length) {
                 setCounter(counter => counter + 1);
-                setTitle(title + titleData.charAt(counter))
+                setTitle(title + data.title.charAt(counter))
             }
         }, speed);
-    }, [title]);
+    }, [title]); // eslint-disable-line react-hooks/exhaustive-deps
     useEffect(() => {
         setTitle('');
         setCounter(0);
@@ -25,7 +28,9 @@ export default function About (props) {
     return (
         <section id="about">
             <div className="About__text">
-                <h1 className="About__title">{title}</h1>
+                <div className="AboutTitle__container">
+                    <h1 className="About__title">{title}</h1>
+                </div>
                 <p className="About__content">{data.content}</p>
             </div>
             <div className="About__image">

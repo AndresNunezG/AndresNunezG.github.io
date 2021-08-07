@@ -10,6 +10,12 @@
 
 .About__text {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutTitle__container {
+    height: 7em;
 }
 
 .About__title {
