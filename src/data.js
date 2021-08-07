@@ -15,7 +15,7 @@ export const navbarData = [
 
 export const aboutData = [
     {
-        title: "Hello there",
+        title: "Hello there.",
         content: "I'm Andrés, from Bogotá Colombia. Software Developer & Electronic Engineer, passionate about technology and computer science",
     },
     {

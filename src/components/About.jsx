@@ -7,7 +7,7 @@ import './styles/About.css';
 
 export default function About (props) {
     const data = aboutData[props.language];
-    const speed = 120;
+    const speed = 170;
     const textEffect = useTypeEffect(data.title, speed, props.language)
     return (
         <section id="about">

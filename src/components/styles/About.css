@@ -3,15 +3,14 @@
     color: var(--main-fg-color);
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
 }
 
 .About__text {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
+    grid-column: 2 / 6;
+    grid-row: 8 / 13;
 }
 
 .AboutTitle__container {
@@ -19,6 +18,7 @@
 }
 
 .About__title {
+    height: 100%;
     color: var(--hover-color);
     font-weight: 500;
     font-size: 6em;
@@ -30,5 +30,6 @@
 }
 
 .About__image {
-    width: 22rem;
+    grid-column: 7 / 10;
+    grid-row: 5 / 10;
 }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useTypeEffect = (text, speed, reset) => {
+const useTypeEffect = (text, speed, reset = null) => {
     const [textEffect, setTextEffect] = useState('');
     const [counter, setCounter] = useState(0);
     useEffect(() => {

@@ -9,7 +9,7 @@
 
 .ContactText__container {
     width: 50%;
-    margin-left: 10%;
+    padding: 0 5vh 0 20vh;
 }
 
 .Warning__container {
@@ -26,6 +26,11 @@
 .ContactText__title {
     font-weight: 500;
     font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.ContactText__subtitle{
+    margin-bottom: 15px;
 }
 
 .ContactForm__container {
@@ -66,6 +71,7 @@
 
 .SubmitButton {
     border-style: none;
+    cursor: pointer;
     height: 35px;
     color: var(--main-fg-color);
     background-color: var(--main-bg-color);
