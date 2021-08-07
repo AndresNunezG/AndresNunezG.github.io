@@ -1,7 +1,9 @@
 import { useState } from "react";
 
 const useTheme = () => {
-    const [theme, setTheme] = useState(false);
+    const date = new Date();
+    const enableDarkMode = date.getHours() >= 18 ? false : true;
+    const [theme, setTheme] = useState(enableDarkMode);
     const handleClickTheme = () => {
         setTheme(!theme);
     };

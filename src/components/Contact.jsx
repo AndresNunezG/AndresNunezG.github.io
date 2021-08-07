@@ -1,11 +1,18 @@
 import React from 'react';
+import emailjs from 'emailjs-com'
 
 import { contactData } from '../data';
 import { ShieldCheckIcon } from '@heroicons/react/outline';
 import './styles/Contact.css';
 
 export default function Contact (props) {
-    const data = contactData[props.language]
+    const data = contactData[props.language];
+    const handleClickEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_mfzvvr1', 'template_nyrqewl', '#EmailJS', 'user_W2UueZCBcwEXPfVQrHSV0')
+         .then(result => console.log(result.text))
+         .catch(error => console.log(error));
+    };
     return (
         <section id="contact">
             <div className="ContactText__container">
@@ -19,7 +26,7 @@ export default function Contact (props) {
                 </div>
             </div>
             <div className="ContactForm__container">
-                <form className="ContactForm" autoComplete="off">
+                <form id="EmailJS" className="ContactForm" autoComplete="off">
                     <input
                     className="InputForm"
                     name="name"
@@ -39,11 +46,15 @@ export default function Contact (props) {
                     name="message"
                     type="text"
                     autoComplete="off"
+                    maxLength="1000"
                     placeholder={data.message}>
                     </textarea>
                     <button
                      className="SubmitButton"
-                     type="button">{data.submit}</button>
+                     type="button"
+                     onClick={handleClickEmail}>
+                    {data.submit}
+                    </button>
                 </form>
             </div>
         </section>
