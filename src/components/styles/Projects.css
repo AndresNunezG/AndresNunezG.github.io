@@ -1,6 +1,8 @@
 #projects {
     width: 100%;
-    background: var(--submain-bg-color);
+    color: var(--main-fg-color);
+    background: var(--main-bg-color);
+    padding-bottom: 4em;
 }
 
 .Projects__title-container {

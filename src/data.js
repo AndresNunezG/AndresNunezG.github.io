@@ -38,8 +38,8 @@ export const projectsHeader = [
 export const projectsData = [
     [
         {
-            title: "Badge System",
-            subtitle: "CRUD Badge management",
+            title: "DevConf",
+            subtitle: "CRUD Badge management for Developers conference",
             link: "https://github.com/AndresNunezG/BadgesSystem",
         },
         {
@@ -47,11 +47,16 @@ export const projectsData = [
             subtitle: "Video platform simulator with the Rick & Morty API",
             link: "https://github.com/AndresNunezG/VideoTube",
         },
+        {
+            title: "BudgetApp",
+            subtitle: "Video platform simulator with the Rick & Morty API",
+            link: "https://github.com/AndresNunezG/VideoTube",
+        },
     ],
     [
         {
-            title: "Sistema de Insignias",
-            subtitle: "Aplicación CRUD de insignias",
+            title: "DevConf",
+            subtitle: "Aplicación CRUD de insignias para conferencias",
             link: "https://github.com/AndresNunezG/BadgesSystem",
         },
         {
@@ -59,6 +64,11 @@ export const projectsData = [
             subtitle: "Clon de plataforma streaming",
             link: "https://github.com/AndresNunezG/VideoTube",
         },
+        {
+            title: "BudgetApp",
+            subtitle: "Video platform simulator with the Rick & Morty API",
+            link: "https://github.com/AndresNunezG/VideoTube",
+        }, 
     ],
 ];
 
@@ -74,60 +84,30 @@ export const techstackHeader = [
 ];
 
 export const techstackData = [
-    [
-        {
-            name: "Javascript",
-            iconClass: "fab fa-js",
-        },
-        {
-            name: "React",
-            iconClass: "fab fa-react"
-        },
-        {
-            name: "Python",
-            iconClass: "fab fa-python",
-        },
-        {
-            name: "MySQL",
-            iconClass: "fas fa-database",
-        },
-        {
-            name: "Git",
-            iconClass: "fab fa-git-alt",
-        },
-        {
-            name: "FastAPI",
-            iconClass: "fas fa-server",
-        },
-    ],
-    [
-        {
-            name: "Javascript",
-            iconClass: "fab fa-js",
-        },
-        {
-            name: "React",
-            iconClass: "fab fa-react"
-        },
-        {
-            name: "Python",
-            iconClass: "fab fa-python",
-        },
-        {
-            name: "MySQL",
-            iconClass: "fas fa-database",
-        },
-        {
-            name: "Git",
-            description: "",
-            iconClass: "fab fa-git-alt",
-        },
-        {
-            name: "FastAPI",
-            description: "",
-            iconClass: "fas fa-server",
-        },
-    ],
+    {
+        name: "Javascript",
+        iconClass: "fab fa-js",
+    },
+    {
+        name: "React",
+        iconClass: "fab fa-react"
+    },
+    {
+        name: "Python",
+        iconClass: "fab fa-python",
+    },
+    {
+        name: "MySQL",
+        iconClass: "fas fa-database",
+    },
+    {
+        name: "Git",
+        iconClass: "fab fa-git-alt",
+    },
+    {
+        name: "FastAPI",
+        iconClass: "fas fa-server",
+    },
 ];
 
 export const contactData = [

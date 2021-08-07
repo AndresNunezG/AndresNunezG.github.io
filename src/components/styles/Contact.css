@@ -4,7 +4,7 @@
     justify-content: center;
     background: var(--main-bg-color);
     color: var(--main-fg-color);
-    padding-bottom: 3em;
+    padding-bottom: 4em;
 }
 
 .ContactText__container {

@@ -6,7 +6,7 @@ import './styles/Techstack.css'
 
 export default function Techstack (props) {
     const dataHeader = techstackHeader[props.language];
-    const data = techstackData[props.language];
+    const data = techstackData;
     return (
         <section id="techstack">
             <div className="Techstack__header">
