@@ -30,3 +30,77 @@
 .Projects__subtitle {
     font-size: 1.5em;
 }
+
+.Projects__list-container {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ProjectItem__container {
+    width: 35em;
+    height: 12em;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    background: var(--main-bg-color);
+    background: linear-gradient(0deg, var(--main-bg-color) 50%, var(--submain-bg-color) 50%);
+    border: solid 1px var(--submain-bg-color);
+    
+}
+
+.ProjectItem__techs {
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--hover-color);
+}
+
+.ProjectItem__image {
+    width: 20em;
+    padding: 1em;
+}
+
+.ItemImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: solid 1px var(--hover-color);
+    box-shadow: 4px 4px 0px 0px var(--hover-color);
+}
+
+.ProjectText__container {
+    padding: 0.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SeeMore__container {
+    width: fit-content;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+}
+
+.SeeMore__container a {
+    text-decoration: none;
+    color: var(--main-fg-color);
+    transition: 200ms ease;
+}
+
+.Icon__semore {
+    width: 14px;
+    transition: 200ms ease;
+    margin: 0 3px;
+    display: none;
+}
+
+.SeeMore__container:hover a {
+    color: var(--hover-color);
+}
+
+.SeeMore__container:hover .Icon__semore {
+    color: var(--hover-color);
+    display: block;
+}

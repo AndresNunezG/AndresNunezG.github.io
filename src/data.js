@@ -27,11 +27,13 @@ export const aboutData = [
 export const projectsHeader = [
     {
         title: "Apps I've Built",
-        content: "Take a look at my favourite Projects and Apps"
+        content: "Take a look at my favourite Projects and Apps",
+        seemore: "See more",
     },
     {
         title: "Proyectos",
-        content: "Echa un vistazo a mis proyectos favoritos"
+        content: "Echa un vistazo a mis proyectos favoritos",
+        seemore: "Ver más",
     },
 ];
 
@@ -41,16 +43,25 @@ export const projectsData = [
             title: "DevConf",
             subtitle: "CRUD Badge management for Developers conference",
             link: "https://github.com/AndresNunezG/BadgesSystem",
+            img: "https://i.imgur.com/1KOKuYh.png",
+            imgAlt: "DevConf List",
+            techs: "ReactJS React Router Bootstrap",
         },
         {
             title: "VideoTube",
             subtitle: "Video platform simulator with the Rick & Morty API",
             link: "https://github.com/AndresNunezG/VideoTube",
+            img: "https://i.imgur.com/y9Moy9l.png",
+            imgAlt: "VideoTube Browser",
+            techs: "ReactJS  Webpack  Babel  API",
         },
         {
             title: "BudgetApp",
             subtitle: "Video platform simulator with the Rick & Morty API",
             link: "https://github.com/AndresNunezG/VideoTube",
+            img: "https://i.imgur.com/IMYkHm8.png",
+            imgAlt: "BudgetApp Desktop",
+            techs: "Python  Tkinter",
         },
     ],
     [
@@ -58,16 +69,19 @@ export const projectsData = [
             title: "DevConf",
             subtitle: "Aplicación CRUD de insignias para conferencias",
             link: "https://github.com/AndresNunezG/BadgesSystem",
+            techs: "ReactJS  React  Router  Bootstrap",
         },
         {
             title: "VideoTube",
             subtitle: "Clon de plataforma streaming",
             link: "https://github.com/AndresNunezG/VideoTube",
+            techs: "ReactJS  Webpack  Babel  API",
         },
         {
             title: "BudgetApp",
             subtitle: "Video platform simulator with the Rick & Morty API",
             link: "https://github.com/AndresNunezG/VideoTube",
+            techs: "Python  Tkinter",
         }, 
     ],
 ];

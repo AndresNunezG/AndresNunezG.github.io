@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { projectsHeader, projectsData } from '../data';
-import { CodeIcon } from '@heroicons/react/outline';
-import './styles/Projects.css'
+import { CodeIcon, PlusIcon } from '@heroicons/react/outline';
+import './styles/Projects.css';
 
 export default function Projects (props) {
-    const dataHeader = projectsHeader[props.language]
-    const data = projectsData[props.language]
+    const dataHeader = projectsHeader[props.language];
+    const data = projectsData[props.language];
     return (
         <section id="projects">
             <div className="Projects__title-container">
@@ -16,8 +16,29 @@ export default function Projects (props) {
             </div>
             <div className="Projects__list-container">
                 {data.map((project) => (
-                    <div key={project.title}>
-                        <p>{project.title}</p>
+                    <div key={project.title} className="ProjectItem__container">
+                        <div className="ProjectItem__image">
+                            <img
+                             src={project.img}
+                             alt={project.imgAlt}
+                             className="ItemImage"
+                            />
+                        </div>
+                        <div className="ProjectText__container">
+                            <div className="ProjectItem__title">
+                                <h2>{project.title}</h2>
+                                <div className="ProjectItem__techs">
+                                    {project.techs}
+                                </div>
+                            </div>
+                            <div className="PojectItem__content">
+                                <p>{project.subtitle}</p>
+                                <div className="SeeMore__container">
+                                    <a href={project.link}>{dataHeader.seemore}</a>
+                                    <PlusIcon className="Icon__semore" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>

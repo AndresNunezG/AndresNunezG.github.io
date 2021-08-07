@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
+
+body {
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 .light {
     --header-bg-color: #BDD5EA;
