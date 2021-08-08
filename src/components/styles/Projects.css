@@ -9,6 +9,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -29,6 +30,7 @@
 
 .Projects__subtitle {
     font-size: 1.5em;
+    text-align: center;
 }
 
 .Projects__list-container {
@@ -66,7 +68,7 @@
     height: auto;
     object-fit: cover;
     border: solid 1px var(--hover-color);
-    box-shadow: 4px 4px 0px 0px var(--hover-color);
+    box-shadow: 2px 2px 0px 0px var(--hover-color);
     transition: 200ms ease;
 }
 

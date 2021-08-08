@@ -19,7 +19,10 @@ export default function Home () {
              onClickLeng={handleClickLeng}
              onClickTheme={handleClickTheme}
             />
-            <About language={language} />
+            <About
+             language={language}
+             theme={theme}
+            />
             <Projects language={language} />
             <Techstack language={language} />
             <Contact language={language} />

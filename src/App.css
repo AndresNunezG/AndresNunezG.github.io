@@ -19,15 +19,13 @@ body::-webkit-scrollbar {
     --main-bg-color: #F7F7F0;
     --submain-bg-color: #BDD5DF;
     --main-fg-color: #495867;
-    --submain-fg-color: #577399;
     --hover-color: #FE5F55;
 }
 
 .dark {
-    --header-bg-color: #222831;
-    --main-bg-color: #30475E;
-    --submain-bg-color: #222838;
-    --main-fg-color: #E8E8E8;
-    --submain-fg-color: #E8E8E8;
-    --hover-color: #F05454;
+    --header-bg-color: #101728;
+    --main-bg-color: #1e2838;
+    --submain-bg-color: #101728;
+    --main-fg-color: #EEE;
+    --hover-color: #8cf000;
 }

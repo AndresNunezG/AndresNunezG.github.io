@@ -24,6 +24,8 @@
 
 .Techstack__subtitle {
     font-size: 1.5em;
+    padding: 0 5px;
+    text-align: center;
 }
 
 .Techstack__list {

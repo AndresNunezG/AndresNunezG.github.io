@@ -85,3 +85,30 @@
     width: 170px;
     color: var(--hover-color);
 }
+
+@media only screen and (max-width: 950px) {
+    #contact {
+        flex-direction: column;
+    }
+
+    .ContactText__container {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .ContactText__title {
+        text-align: center;
+    }
+
+    .Icon__warning {
+        width: 25px;
+    }
+
+    .ContactForm__container {
+        width: 100%;
+    }
+
+    .ContactForm {
+        margin: 0;
+    }
+}
