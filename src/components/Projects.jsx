@@ -31,7 +31,7 @@ export default function Projects (props) {
                                     {project.techs}
                                 </div>
                             </div>
-                            <div className="PojectItem__content">
+                            <div className="ProjectItem__content">
                                 <p>{project.subtitle}</p>
                                 <div className="SeeMore__container">
                                     <a href={project.link}>{dataHeader.seemore}</a>

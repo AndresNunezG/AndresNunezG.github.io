@@ -46,3 +46,23 @@
 .Footer__right i:hover, .Footer__left a:hover {
     color: var(--hover-color);
 }
+
+@media only screen and (max-width: 950px) {
+    #Footer {
+        height: fit-content;
+    }
+
+    .Footer__container {
+        flex-direction: column-reverse;
+    }
+
+    .Footer__right {
+        margin: 0.5em 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Footer__left {
+        margin-bottom: 0.5em;
+    }
+}

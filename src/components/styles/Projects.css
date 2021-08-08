@@ -108,3 +108,9 @@
     color: var(--hover-color);
     display: block;
 }
+
+@media only screen and (max-width: 450px) {
+    .ProjectItem__content p {
+        font-size: 14px;
+    }
+}

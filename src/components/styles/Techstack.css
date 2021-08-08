@@ -66,3 +66,18 @@
     font-weight: 300;
     transition: 200ms ease;
 }
+
+@media only screen and (max-width: 950px) {
+    .Techstack__list {
+        padding: 1em 5px;
+    }
+
+    .TechstackItem__container {
+        width: fit-content;
+    }
+
+    .TechItem {
+        padding: 0;
+        padding: 0 10px;
+    }
+}
