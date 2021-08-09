@@ -52,6 +52,7 @@
 
 .Navbar__right {
     display: flex;
+    align-items: center;
 }
 
 .Leng__button,
@@ -80,16 +81,35 @@
 }
 
 @media only screen and (max-width: 950px) {
+    .Icon__theme {
+        width: 18px;
+    }
+
     .Navbar__left {
         display: none;
     }
 
-    .Navbar__right {
-        margin-left: 1em;
+    .MobileMenu__container {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
     }
 
-    .MobileMenu__container {
-        display: block;
+    .Icon__MobileMenu {
         width: 20px;
+    }
+
+    .MobileMenu__ddList {
+        background: var(--header-bg-color);
+        border: solid 1px var(--hover-color);
+        position: absolute;
+        text-decoration: none;
+        margin-top: 5.7vh;
+        right: 0;
+    }
+
+    .MobileMenu__ddList li {
+        list-style: none;
+        padding: 0.8em;
     }
 }

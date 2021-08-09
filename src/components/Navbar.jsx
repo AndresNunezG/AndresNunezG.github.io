@@ -32,7 +32,25 @@ export default function Navbar (props) {
                     </button>
                 </div>
                 <div className="MobileMenu__container">
-                    <MenuIcon />
+                    <div className="Icon__MobileMenu">
+                        <MenuIcon />
+                    </div>
+                    <div className="MobileMenu__ddList">
+                        <ul>
+                            <li>
+                                <a href='#about'>{data.about}</a>
+                            </li>
+                            <li>
+                                <a href='#projects'>{data.projects}</a>
+                            </li>
+                            <li>
+                                <a href='#techstack'>{data.techstack}</a>
+                            </li>
+                            <li>
+                                <a href="#contact">{data.contact}</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
