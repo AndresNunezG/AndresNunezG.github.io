@@ -74,3 +74,22 @@
 .Leng__button h3:hover, .Theme__button:hover {
     color: var(--hover-color);
 }
+
+.MobileMenu__container {
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .Navbar__left {
+        display: none;
+    }
+
+    .Navbar__right {
+        margin-left: 1em;
+    }
+
+    .MobileMenu__container {
+        display: block;
+        width: 20px;
+    }
+}

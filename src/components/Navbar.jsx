@@ -3,6 +3,7 @@ import React from 'react';
 import { navbarData } from '../data.js';
 import { SunIcon } from '@heroicons/react/outline'
 import { MoonIcon } from '@heroicons/react/outline';
+import { MenuIcon } from '@heroicons/react/outline';
 import './styles/Navbar.css';
 
 export default function Navbar (props) {
@@ -29,6 +30,9 @@ export default function Navbar (props) {
                     <button onClick={props.onClickTheme} className="Theme__button" type="button">
                         {props.theme ? <MoonIcon className="Icon__theme" /> : <SunIcon className="Icon__theme" />}
                     </button>
+                </div>
+                <div className="MobileMenu__container">
+                    <MenuIcon />
                 </div>
             </div>
         </header>
