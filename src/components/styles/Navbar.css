@@ -80,13 +80,27 @@
     display: none;
 }
 
+.Icon__MobileMenu {
+    border-style: none;
+    background: none;
+    color: var(--main-fg-color);
+}
+
 @media only screen and (max-width: 950px) {
+    .Navbar__name {
+        padding: 0 1em;
+    }
+
     .Icon__theme {
         width: 18px;
     }
 
     .Navbar__left {
         display: none;
+    }
+
+    .Navbar__right {
+        padding: 0 0.5em;
     }
 
     .MobileMenu__container {
@@ -100,6 +114,7 @@
     }
 
     .MobileMenu__ddList {
+        display: none;
         background: var(--header-bg-color);
         border: solid 1px var(--hover-color);
         position: absolute;

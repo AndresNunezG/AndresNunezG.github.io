@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { navbarData } from '../data.js';
-import { SunIcon } from '@heroicons/react/outline'
-import { MoonIcon } from '@heroicons/react/outline';
-import { MenuIcon } from '@heroicons/react/outline';
+import { SunIcon, MoonIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import './styles/Navbar.css';
 
 export default function Navbar (props) {
     const data = navbarData[props.language];
+    const [menuMobile, setMenuMobile] = useState(false);
+    const handleMobileMenu = () => {
+        const mobileMenu = document.getElementById("MobileMenu");
+        if (mobileMenu.style.display === "flex") {
+            mobileMenu.style.display = "none";
+            setMenuMobile(false);
+        } else {
+            mobileMenu.style.display = "flex";
+            setMenuMobile(true);
+        }
+    };
     return (
         <header className="Navbar__container">
             <div className="Navbar__name">
@@ -32,10 +41,12 @@ export default function Navbar (props) {
                     </button>
                 </div>
                 <div className="MobileMenu__container">
-                    <div className="Icon__MobileMenu">
-                        <MenuIcon />
+                    <div>
+                        <button type="button" className="Icon__MobileMenu" onClick={handleMobileMenu}>
+                            {menuMobile ? <XIcon /> : <MenuIcon />}
+                        </button>
                     </div>
-                    <div className="MobileMenu__ddList">
+                    <div id="MobileMenu" className="MobileMenu__ddList">
                         <ul>
                             <li>
                                 <a href='#about'>{data.about}</a>
