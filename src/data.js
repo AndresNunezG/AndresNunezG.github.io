@@ -145,21 +145,21 @@ export const contactData = [
     {
         title: "Contacto",
         subtitle: "Déjame un email si te gusta mi trabajo y estás interesado en colaborar conmigo.",
-        warning: "No compartiré tu información o enviarte correo basura",
+        warning: "No compartiré tu información ni te enviaré correo basura",
         name: "Nombre",
         email: "Correo",
         message: "Mensaje",
         submit: "Enviar",
-        messageError: "Ops!, Asegúrate de completar todos los campos",
+        messageError: "Ops! Asegúrate de completar todos los campos",
         messageSent: "Gracias por tu mensaje, responderé en breve"
     },
 ];
 
 export const footerData = [
     {
-        rights: "Andrés Camilo Núñez Garzón | All rights reserved © 2021",
+        rights: "Andrés Camilo Núñez Garzón | 2021",
     },
     {
-        rights: "Andrés Camilo Núñez Garzón | Todos los derechos reservados © 2021",
+        rights: "Andrés Camilo Núñez Garzón | 2021",
     },
 ];
