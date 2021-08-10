@@ -1,0 +1,101 @@
+#blog {
+    width: 100%;
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+    padding-bottom: 4em;
+    display: flex;
+    align-items: center;
+}
+
+.Blog__left {
+    width: 50%;
+    padding: 0 5vh 0 20vh;
+}
+
+.Title__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.Icon__blog {
+    width: 3em;
+    color: var(--hover-color);
+}
+
+.Blog__title {
+    font-size: 3em;
+}
+
+.Blog__right {
+    margin: 0 2em;
+    width: 40%;
+    display: flex;
+}
+
+.BlogButton {
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: var(--main-fg-color);
+    z-index: 100;
+}
+
+.BlogInfo__container {
+    padding: 0 1em;
+    height: 8em;
+    width: 100%;
+}
+
+.BlogInfo__title,
+.BlogInfo__content {
+    margin-bottom: 8px;
+    transition: 200ms ease;
+}
+
+.SeeMore__container {
+    transition: 200ms ease;
+    cursor: pointer;
+}
+
+.Icon__seemore {
+    width: 14px;
+    opacity: 0;
+}
+
+.BlogInfo__chevron {
+    cursor: pointer;
+    z-index: 0;
+    width: 1.6em;
+    transition: 200ms ease;
+}
+
+.BlogInfo__chevron:hover,
+.SeeMore__container:hover {
+    color: var(--hover-color);
+}
+
+.SeeMore__container:hover .Icon__seemore {
+    opacity: 1;
+}
+
+.MessageForm__container {
+    height: 15px;
+}
+
+@media only screen and (max-width: 950px) {
+    #blog {
+        flex-direction: column;
+        padding: 1em 1em 4em 1em;
+    }
+
+    .Blog__left, .Blog__right {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .Blog__right {
+        margin-top: 2em;
+    }
+}

@@ -34,8 +34,8 @@ export default function Projects (props) {
                             <div className="ProjectItem__content">
                                 <p>{project.subtitle}</p>
                                 <div className="SeeMore__container">
-                                    <a href={project.link}>{dataHeader.seemore}</a>
-                                    <PlusIcon className="Icon__semore" />
+                                    <a href={project.link} target="_blank" rel="noreferrer">{dataHeader.seemore}</a>
+                                    <PlusIcon className="Icon__semore"/>
                                 </div>
                             </div>
                         </div>

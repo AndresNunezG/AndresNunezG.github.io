@@ -29,6 +29,7 @@ export default function Navbar (props) {
                     <a href='#projects'>{data.projects}</a>
                     <a href='#techstack'>{data.techstack}</a>
                     <a href="#contact">{data.contact}</a>
+                    <a href="#blog">{data.blog}</a>
                 </div>
                 <div className="Navbar__right">
                     <button onClick={props.onClickLeng} className="Leng__button" type="button">
@@ -59,6 +60,9 @@ export default function Navbar (props) {
                             </li>
                             <li>
                                 <a href="#contact">{data.contact}</a>
+                            </li>
+                            <li>
+                                <a href="#blog">{data.blog}</a>
                             </li>
                         </ul>
                     </div>

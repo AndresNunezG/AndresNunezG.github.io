@@ -6,6 +6,7 @@ import About from '../components/About';
 import Projects from '../components/Projects';
 import Techstack from '../components/Techstack';
 import Contact from '../components/Contact';
+import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 
 export default function Home () {
@@ -26,6 +27,7 @@ export default function Home () {
             <Projects language={language} />
             <Techstack language={language} />
             <Contact language={language} />
+            <Blog language={language} />
             <Footer language={language} />
         </main>
     )

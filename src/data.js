@@ -3,13 +3,15 @@ export const navbarData = [
         about: "About",
         projects: "Projects",
         techstack: "Techstack",
-        contact: "Contact",   
+        contact: "Contact",  
+        blog: "Blog", 
     },
     {
         about: "Acerca de",
         projects: "Projectos",
         techstack: "Tecnologías",
         contact: "Contacto",
+        blog: "Blog",
     },
 ];
 
@@ -140,7 +142,7 @@ export const contactData = [
         message: "Message",
         submit: "Submit",
         messageError: "Whoops, make sure all the fileds are complete",
-        messageSent: "Thanks! I'll answer you soon",
+        messageOk: "Thanks! I'll answer you soon",
     },
     {
         title: "Contacto",
@@ -151,8 +153,68 @@ export const contactData = [
         message: "Mensaje",
         submit: "Enviar",
         messageError: "Ops! Asegúrate de completar todos los campos",
-        messageSent: "Gracias por tu mensaje, responderé en breve"
+        messageOk: "Gracias por tu mensaje, responderé en breve"
     },
+];
+
+export const blogHeader = [
+    {
+        title: "Blog",
+        content: "This is my vault for course manuals, little scripts, tutorials and small projects. Public for all.",
+        seemore: "See more",
+    },
+    {
+        title: "Blog",
+        content: "En este espacio guardo mis anotaciones de cursos, también proyectos pequeños y scripts.",
+        seemore: "Ver más",
+    },
+];
+
+export const blogData = [
+    [
+        {
+            blogTitle: "⚛️ ReactJS",
+            blogContent: "ReactRouterDOM, Webpack, Babel, JSX, Component Lifecycle, SPA, Hooks and Portals",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/React",
+        },
+        {
+            blogTitle: "🐍 OOP Python and Algorithms",
+            blogContent: "Object Oriented Programming in Python, search and sort algorithms",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/PythonAlgoritmosPOO",
+        },
+        {
+            blogTitle: "⏳ Asynchronous Javascript",
+            blogContent: "Callbacks, Promises and Asyn Await",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/JavascriptAsincronismo",
+        },
+        {
+            blogTitle: "📟 Terminal - Command Line",
+            blogContent: "File management, pipelines, file search, network utilities and others",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/Terminal",
+        },
+    ],
+    [
+        {
+            blogTitle: "⚛️ ReactJS",
+            blogContent: "ReactRouterDOM, Webpack, Babel, JSX, Ciclo de vida de los componentes, SPA, Hooks y Portales",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/React",
+        },
+        {
+            blogTitle: "🐍 Python POO y algoritmos",
+            blogContent: "Python orientado a objetos, algoritmos de búsqueda y ordenamiento",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/PythonAlgoritmosPOO",
+        },
+        {
+            blogTitle: "⏳ Javascript Asíncrono",
+            blogContent: "Callbacks, Promesas y Async Await",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/JavascriptAsincronismo",
+        },
+        {
+            blogTitle: "📟 Terminal - Línea de comandos",
+            blogContent: "Manipulación de archivos, pipelines, búsqueda de archivos, utilidades de red, entre otros",
+            link: "https://github.com/AndresNunezG/The-A-Blog/tree/main/handbook/Terminal",
+        },
+    ],
 ];
 
 export const footerData = [

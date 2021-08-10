@@ -7,6 +7,17 @@
     padding-bottom: 4em;
 }
 
+.ContactTitle__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.Icon__contact {
+    width: 3em;
+    color: var(--hover-color);
+}
+
 .ContactText__container {
     width: 50%;
     padding: 0 5vh 0 20vh;
@@ -26,7 +37,6 @@
 .ContactText__title {
     font-weight: 500;
     font-size: 3em;
-    margin-bottom: 15px;
 }
 
 .ContactText__subtitle{
@@ -79,6 +89,7 @@
     box-shadow: 4px 4px 0px 0px var(--submain-bg-color);
     width: 150px;
     transition: 200ms ease;
+    margin-bottom: 8px;
 }
 
 .SubmitButton:hover {
