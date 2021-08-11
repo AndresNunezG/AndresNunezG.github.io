@@ -97,6 +97,14 @@
     color: var(--hover-color);
 }
 
+.MessageForm__container {
+    margin-bottom: 8px;
+}
+
+.MessageForm__container p {
+    text-align: center;
+}
+
 @media only screen and (max-width: 950px) {
     #contact {
         flex-direction: column;

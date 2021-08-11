@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable */
+import React, { useEffect, useState } from 'react';
 import emailjs from 'emailjs-com'
 
 import { contactData } from '../data';
@@ -12,14 +13,34 @@ export default function Contact (props) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [emailValid, setEmailValid] = useState(null); 
+    const regex = {emailRegex: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}/};
+    const validateEmail = (e) => {
+        if(regex.emailRegex.test(email)) {
+            setEmailValid(true);
+        } else {
+            setEmailValid(false);
+        };
+    };
+    useEffect(() => {
+        if (email === '') {
+            setTimeout(() => {
+                setEmailValid(null);
+            }, 3000);
+        }
+    }, [email])
     const handleClickEmail = (e) => {
         e.preventDefault();
-        if (name && email && message) {
+        validateEmail();
+        if (name && emailValid && message) {
             setMessageSent(true);
             emailjs.sendForm('service_mfzvvr1', 'template_nyrqewl', '#EmailJS', 'user_W2UueZCBcwEXPfVQrHSV0')
              .then(result => {
                  setMessageFail(false);
                  console.log(result);
+                 setName('');
+                 setEmail('');
+                 setMessage('');
                 })
              .catch(error => {
                  console.log(error);
@@ -65,6 +86,8 @@ export default function Contact (props) {
                     placeholder={data.name}>
                     </input>
                     <input
+                    onBlur={validateEmail}
+                    onKeyUp={validateEmail}
                     className="InputForm"
                     name="email"
                     type="email"
@@ -89,7 +112,14 @@ export default function Contact (props) {
                      onClick={handleClickEmail}>
                     {data.submit}
                     </button>
-                    <div className="MessageForm__container">{(messageSent === false && messageFail === null) ? null : (messageFail) ? data.messageError : data.messageOk}</div>
+                    <div className="MessageForm__container">
+                        <p>
+                            {(messageSent === false && messageFail === null) ? null : (messageFail) ? data.messageError : data.messageOk}
+                        </p>
+                        <p>
+                            {(messageSent === false && emailValid === false) ? data.messageEmailInvalid : null}
+                        </p>
+                    </div>
                 </form>
             </div>
         </section>

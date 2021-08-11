@@ -8,7 +8,7 @@ export const navbarData = [
     },
     {
         about: "Acerca de",
-        projects: "Projectos",
+        projects: "Proyectos",
         techstack: "Tecnologías",
         contact: "Contacto",
         blog: "Blog",
@@ -60,7 +60,7 @@ export const projectsData = [
         {
             title: "BudgetApp",
             subtitle: "Desktop App to manage an Budget throught trasnferences",
-            link: "https://github.com/AndresNunezG/VideoTube",
+            link: "https://github.com/AndresNunezG/budget_app",
             img: "https://i.imgur.com/IMYkHm8.png",
             imgAlt: "BudgetApp Desktop",
             techs: "Python  Tkinter",
@@ -86,7 +86,7 @@ export const projectsData = [
         {
             title: "BudgetApp",
             subtitle: "App de escritorio para manejar un presupuesto mediante transferencias",
-            link: "https://github.com/AndresNunezG/VideoTube",
+            link: "https://github.com/AndresNunezG/budget_app",
             img: "https://i.imgur.com/IMYkHm8.png",
             imgAlt: "BudgetApp Desktop",
             techs: "Python  Tkinter",
@@ -141,8 +141,9 @@ export const contactData = [
         email: "Email",
         message: "Message",
         submit: "Submit",
-        messageError: "Whoops, make sure all the fileds are complete",
+        messageError: "Whoops, make sure all the fields are complete",
         messageOk: "Thanks! I'll answer you soon",
+        messageEmailInvalid: "Please write a valid email",
     },
     {
         title: "Contacto",
@@ -153,7 +154,8 @@ export const contactData = [
         message: "Mensaje",
         submit: "Enviar",
         messageError: "Ops! Asegúrate de completar todos los campos",
-        messageOk: "Gracias por tu mensaje, responderé en breve"
+        messageOk: "Gracias por tu mensaje, responderé en breve",
+        messageEmailInvalid: "Escribe un email válido por favor",
     },
 ];
 
