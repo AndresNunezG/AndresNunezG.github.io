@@ -59,11 +59,19 @@ export const projectsData = [
         },
         {
             title: "BudgetApp",
-            subtitle: "Desktop App to manage an Budget throught trasnferences",
+            subtitle: "Desktop App to manage an Budget throught transferences",
             link: "https://github.com/AndresNunezG/budget_app",
             img: "https://i.imgur.com/IMYkHm8.png",
             imgAlt: "BudgetApp Desktop",
             techs: "Python  Tkinter",
+        },
+        {
+            title: "Live Markdown Editor",
+            subtitle: "Web App to edit and Preview, in real time, markdown documents",
+            link: "https://live-md-editor.netlify.app/",
+            img: "https://i.imgur.com/FrxHxkR.png",
+            imgAlt: "LiveMarkDownEditor",
+            techs: "React  Marked",
         },
     ],
     [
@@ -90,7 +98,15 @@ export const projectsData = [
             img: "https://i.imgur.com/IMYkHm8.png",
             imgAlt: "BudgetApp Desktop",
             techs: "Python  Tkinter",
-        }, 
+        },
+        {
+            title: "Live Markdown Editor",
+            subtitle: "Aplicación web para edición en tiempo real de archivos markdown",
+            link: "https://live-md-editor.netlify.app/",
+            img: "https://i.imgur.com/pesQzLy.png",
+            imgAlt: "LiveMarkDownEditor",
+            techs: "React  Marked",
+        },
     ],
 ];
 
