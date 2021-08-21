@@ -42,6 +42,22 @@ export const projectsHeader = [
 export const projectsData = [
     [
         {
+            title: "Live Markdown Editor",
+            subtitle: "Web App to edit and Preview, in real time, markdown documents",
+            link: "https://live-md-editor.netlify.app/",
+            img: "https://i.imgur.com/FrxHxkR.png",
+            imgAlt: "LiveMarkDownEditor",
+            techs: "React  Marked",
+        },
+        {
+            title: "Crypto Data",
+            subtitle: "Data and Charts of the main cryptocurrencies",
+            link: "https://cryptocurrency-data.netlify.app/",
+            img: "https://i.imgur.com/l5FwNfT.png",
+            imgAlt: "cryprodatamain",
+            techs: "React TailwindCSS ChartJS",
+        },
+        {
             title: "DevConf",
             subtitle: "CRUD Badge management for Developers conference",
             link: "https://github.com/AndresNunezG/BadgesSystem",
@@ -65,16 +81,24 @@ export const projectsData = [
             imgAlt: "BudgetApp Desktop",
             techs: "Python  Tkinter",
         },
+    ],
+    [
         {
             title: "Live Markdown Editor",
-            subtitle: "Web App to edit and Preview, in real time, markdown documents",
+            subtitle: "Aplicación web para edición en tiempo real de archivos markdown",
             link: "https://live-md-editor.netlify.app/",
-            img: "https://i.imgur.com/FrxHxkR.png",
+            img: "https://i.imgur.com/pesQzLy.png",
             imgAlt: "LiveMarkDownEditor",
             techs: "React  Marked",
         },
-    ],
-    [
+        {
+            title: "Crypto Data",
+            subtitle: "Gráficas y datos de las principales criptomonedas",
+            link: "https://cryptocurrency-data.netlify.app/",
+            img: "https://i.imgur.com/l5FwNfT.png",
+            imgAlt: "cryprodatamain",
+            techs: "React TailwindCSS ChartJS",
+        },
         {
             title: "DevConf",
             subtitle: "Aplicación CRUD de insignias para conferencia IT",
@@ -98,14 +122,6 @@ export const projectsData = [
             img: "https://i.imgur.com/IMYkHm8.png",
             imgAlt: "BudgetApp Desktop",
             techs: "Python  Tkinter",
-        },
-        {
-            title: "Live Markdown Editor",
-            subtitle: "Aplicación web para edición en tiempo real de archivos markdown",
-            link: "https://live-md-editor.netlify.app/",
-            img: "https://i.imgur.com/pesQzLy.png",
-            imgAlt: "LiveMarkDownEditor",
-            techs: "React  Marked",
         },
     ],
 ];
@@ -145,6 +161,10 @@ export const techstackData = [
     {
         name: "FastAPI",
         iconClass: "fas fa-server",
+    },
+    {
+        name: "Tailwind",
+        iconClass: "fas fa-wind",
     },
 ];
 
